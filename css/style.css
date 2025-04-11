@@ -195,6 +195,22 @@ footer {
     box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
 }
 
+.creators {
+    margin-bottom: 15px;
+}
+
+.creators h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.creators li {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .whats-new {
     text-align: center;
     margin-bottom: 20px;
