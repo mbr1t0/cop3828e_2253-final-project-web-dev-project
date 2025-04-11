@@ -1,14 +1,20 @@
+/* --- All Style --- */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* --- Body Style --- */
+
 body {
     font-family: Roboto, sans-serif;
     background-color: #b6c3ff;
     color: #000000;
 }
+
+/* --- Header Style --- */
 
 header {
     display: flex;
@@ -23,6 +29,8 @@ header {
     border-width: 10px;
 }
 
+/* --- Hover Style (Images, Links, Lists) --- */
+
 img:hover,
 a:hover,
 li:hover {
@@ -30,6 +38,7 @@ li:hover {
   transform: scale(1.02);
 }
 
+/* --- Logo Style --- */
 
 .logo {
     display: flex;
@@ -46,6 +55,8 @@ li:hover {
     width: 60px;
 }
 
+/* --- Navigation Style --- */
+
 nav {
     display: flex;
     gap: 5px;
@@ -57,6 +68,8 @@ nav a {
     font-weight: bold;
 }
 
+/* --- Page Headings Style --- */
+
 .page-headings {
     background-color: #849afa;
     color: #ffffff;
@@ -64,6 +77,8 @@ nav a {
     text-align: center;
     font-size: 30px;
 }
+
+/* --- Topic and Purpose Style --- */
 
 .topic-purpose {
     padding-left: 200px;
@@ -82,6 +97,8 @@ nav a {
     margin-top: 10px;
     font-size: 20px;
 }
+
+/* --- Featured Games Style --- */
 
 .featured-games {
     margin-top: 20px;
@@ -111,6 +128,8 @@ nav a {
     height: 150px;
     border-radius: 30%;
 }
+
+/* --- Historical Events Style --- */
 
 .historical-events {
     margin-top: 15px;
@@ -143,6 +162,8 @@ nav a {
     margin-top: 10px;
 }
 
+/* --- Footer Style --- */
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -152,6 +173,8 @@ footer {
     border-top-style: solid;
     border-width: 10px;
 }
+
+/* --- Team Style --- */
 
 .team {
     display: flex;
@@ -199,6 +222,39 @@ footer {
     box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
 }
 
+/* --- History Table Style --- */
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+.history-table th,
+.history-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+  
+.history-table th {
+    background-color: #007BFF;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.95em;
+}
+  
+.history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.history-table tr:hover {
+    background-color: #f1f1f1;
+    transition: background-color 0.3s ease;
+}
+
+/* --- Originators Style --- */
+
 .creators {
     margin-bottom: 15px;
 }
@@ -220,6 +276,8 @@ footer {
     color: #000000;
 }
 
+/* --- Current Style --- */
+
 .whats-new {
     text-align: center;
     margin-bottom: 20px;
@@ -231,6 +289,7 @@ footer {
     margin-bottom: 15px;
 }
 
+/* --- Media Style --- */
 
 @media (max-width:768px) {
     .team {
@@ -242,6 +301,8 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+/* --- Form Style --- */
 
 form {
     margin-top: 20px;
