@@ -139,6 +139,10 @@ nav a {
     font-size: 18px;
 }
 
+.historical-events li {
+    margin-top: 10px;
+}
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -209,6 +213,11 @@ footer {
 .creators li {
     margin-top: 15px;
     text-align: center;
+}
+
+.creators a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .whats-new {
