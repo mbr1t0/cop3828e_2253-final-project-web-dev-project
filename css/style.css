@@ -222,12 +222,20 @@ footer {
     box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
 }
 
-/* --- History Table Style --- */
+/* --- History Style --- */
+
+.history h3 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 .history-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
   
 .history-table th,
@@ -238,7 +246,7 @@ footer {
 }
   
 .history-table th {
-    background-color: #007BFF;
+    background-color: #5271ff;
     color: white;
     text-transform: uppercase;
     font-size: 0.95em;
